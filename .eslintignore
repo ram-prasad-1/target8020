@@ -1,0 +1,12 @@
+node_modules
+
+*.temp.js
+
+# next.js
+.next/
+out/
+build
+
+# testing
+coverage
+
