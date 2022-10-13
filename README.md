@@ -23,6 +23,10 @@ npm install --workspace=packages/ui
 npm i lodash -w packages/ui
 ```
 
+### Inspiration for the blog
+
+https://www.taniarascia.com/
+
 ---
 
 # Tailwind Nextjs Starter Blog
