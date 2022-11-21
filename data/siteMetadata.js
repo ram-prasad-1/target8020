@@ -2,7 +2,7 @@ const siteMetadata = {
   title: 'Target8020',
   author: 'Ram Prasad',
   headerTitle: 'Target8020',
-  description: 'Get 80% results in 20% efforts',
+  description: 'Get 80% results with 20% efforts',
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
@@ -11,8 +11,8 @@ const siteMetadata = {
   image: '/static/images/avatar.png',
   socialBanner: '/static/images/twitter-card.png',
   email: 'hello@target8020.com',
-  github: 'https://github.com',
-  twitter: 'https://twitter.com/Twitter',
+  github: 'https://github.com/ram-prasad-1',
+  twitter: 'https://twitter.com/ram_prasad_1',
   facebook: 'https://facebook.com',
   youtube: 'https://youtube.com',
   linkedin: 'https://www.linkedin.com',
@@ -32,7 +32,8 @@ const siteMetadata = {
     // Please add your .env file and modify it according to your selection
     provider: 'buttondown',
   },
-  comment: {
+  comment: false,
+  comment2: {
     // If you want to use a commenting system other than giscus you have to add it to the
     // content security policy in the `next.config.js` file.
     // Select a provider and use the environment variables associated to it
