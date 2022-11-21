@@ -27,6 +27,8 @@ npm i lodash -w packages/ui
 
 https://www.taniarascia.com/
 
+https://umeshmk.github.io/technotes/
+
 ---
 
 # Tailwind Nextjs Starter Blog

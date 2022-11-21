@@ -7,24 +7,24 @@ class MyDocument extends Document {
           <link
             rel="apple-touch-icon"
             sizes="76x76"
-            href="/static/favicons/apple-touch-icon.png"
+            href="/static/favicons/ellipsoidal-reflector.svg"
           />
           <link
             rel="icon"
             type="image/png"
             sizes="32x32"
-            href="/static/favicons/favicon-32x32.png"
+            href="/static/favicons/ellipsoidal-reflector.svg"
           />
           <link
             rel="icon"
             type="image/png"
             sizes="16x16"
-            href="/static/favicons/favicon-16x16.png"
+            href="/static/favicons/ellipsoidal-reflector.svg"
           />
           <link rel="manifest" href="/static/favicons/site.webmanifest" />
           <link
             rel="mask-icon"
-            href="/static/favicons/safari-pinned-tab.svg"
+            href="/static/favicons/ellipsoidal-reflector.svg"
             color="#5bbad5"
           />
           <meta name="msapplication-TileColor" content="#000000" />
