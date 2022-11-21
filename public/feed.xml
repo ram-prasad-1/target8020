@@ -14,10 +14,10 @@
     <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/javascript</guid>
     <title>Javascript</title>
     <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/javascript</link>
-    <description>Example of a markdown file with code blocks and syntax highlighting</description>
+    <description>Javascript notes.</description>
     <pubDate>Tue, 08 Mar 2022 00:00:00 GMT</pubDate>
     <author>hello@target8020.com (Ram Prasad)</author>
-    <category>markdown</category><category>code</category><category>features</category>
+    <category>javascript</category>
   </item>
 
     </channel>
