@@ -6,8 +6,8 @@ module.exports = {
     optimizeUniversalDefaults: true,
   },
   content: [
-    './layouts/**/*.js',
-    './lib/**/*.js',
+    // './layouts/**/*.js',
+    // './lib/**/*.js',
     './data/**/*.mdx',
 
     "./src/**/*.{js,ts,jsx,tsx}",
