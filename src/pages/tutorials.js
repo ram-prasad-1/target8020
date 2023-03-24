@@ -6,6 +6,7 @@ import { getAllFilesFrontMatter } from '@/lib/mdx';
 import formatDate from '@/lib/utils/formatDate';
 
 import NewsletterForm from '@/components/NewsletterForm';
+import cx from "clsx";
 
 const MAX_DISPLAY = 5;
 
@@ -46,7 +47,7 @@ export default function Home({ posts }) {
                       </dd>
                     </dl>
                     <div className="space-y-5 xl:col-span-3">
-                      <div className="space-y-6">
+                      <div className={cx(tags && "space-y-6")}>
                         <div>
                           <h2 className="text-2xl font-bold leading-8 tracking-tight">
                             <Link
@@ -57,7 +58,7 @@ export default function Home({ posts }) {
                             </Link>
                           </h2>
                           <div className="flex flex-wrap">
-                            {tags.map((tag) => (
+                            {(tags || []).map((tag) => (
                               <Tag key={tag} text={tag} />
                             ))}
                           </div>

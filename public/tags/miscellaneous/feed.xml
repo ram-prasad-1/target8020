@@ -1,0 +1,24 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>Target8020</title>
+      <link>https://tailwind-nextjs-starter-blog.vercel.app/blog</link>
+      <description>Get 80% results with 20% efforts</description>
+      <language>en-us</language>
+      <managingEditor>hello@target8020.com (Ram Prasad)</managingEditor>
+      <webMaster>hello@target8020.com (Ram Prasad)</webMaster>
+      <lastBuildDate>Mon, 21 Nov 2022 11:00:00 GMT</lastBuildDate>
+      <atom:link href="https://tailwind-nextjs-starter-blog.vercel.app/tags/miscellaneous/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>https://tailwind-nextjs-starter-blog.vercel.app/blog/first-blog</guid>
+    <title>First Blog</title>
+    <link>https://tailwind-nextjs-starter-blog.vercel.app/blog/first-blog</link>
+    <description>Start of my blogging journey.</description>
+    <pubDate>Mon, 21 Nov 2022 11:00:00 GMT</pubDate>
+    <author>hello@target8020.com (Ram Prasad)</author>
+    <category>miscellaneous</category>
+  </item>
+
+    </channel>
+  </rss>

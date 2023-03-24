@@ -1,7 +1,7 @@
 import fs from 'fs';
-import PageTitle from '../../components/PageTitle';
+import PageTitle from '@/components/PageTitle';
 import generateRss from '@/lib/generate-rss';
-import { MDXLayoutRenderer } from '../../components/MDXComponents';
+import { MDXLayoutRenderer } from '@/components/MDXComponents';
 import {
   formatSlug,
   getAllFilesFrontMatter,
