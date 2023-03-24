@@ -1,11 +1,6 @@
-import Link from '@/components/Link';
-import PageTitle from '@/components/PageTitle';
 import SectionContainer from '@/components/SectionContainer';
-import { BlogSEO } from '@/components/SEO';
-import Image from '@/components/Image';
-import Tag from '@/components/Tag';
+import {BlogSEO} from '@/components/SEO';
 import siteMetadata from '@/data/siteMetadata';
-import Comments from '@/components/comments';
 import ScrollTopAndComment from '@/components/ScrollTopAndComment';
 import TOCInline from '@/components/TOCInline';
 
