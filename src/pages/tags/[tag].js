@@ -1,4 +1,4 @@
-import { TagSEO } from '@/components/SEO';
+import { TagSEO } from '../../components/SEO';
 import siteMetadata from '@/data/siteMetadata';
 import ListLayout from '@/layouts/ListLayout';
 import generateRss from '@/lib/generate-rss';

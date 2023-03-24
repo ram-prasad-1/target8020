@@ -6,11 +6,11 @@ module.exports = {
     optimizeUniversalDefaults: true,
   },
   content: [
-    './pages/**/*.js',
-    './components/**/*.js',
     './layouts/**/*.js',
     './lib/**/*.js',
     './data/**/*.mdx',
+
+    "./src/**/*.{js,ts,jsx,tsx}",
   ],
   darkMode: 'class',
   theme: {

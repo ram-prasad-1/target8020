@@ -3,19 +3,19 @@ import dynamic from 'next/dynamic';
 
 const UtterancesComponent = dynamic(
   () => {
-    return import('@/components/comments/Utterances');
+    return import('./Utterances');
   },
   { ssr: false }
 );
 const GiscusComponent = dynamic(
   () => {
-    return import('@/components/comments/Giscus');
+    return import('./Giscus');
   },
   { ssr: false }
 );
 const DisqusComponent = dynamic(
   () => {
-    return import('@/components/comments/Disqus');
+    return import('./Disqus');
   },
   { ssr: false }
 );
