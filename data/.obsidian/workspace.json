@@ -1,0 +1,155 @@
+{
+  "main": {
+    "id": "cb44c89d2a20dbaa",
+    "type": "split",
+    "children": [
+      {
+        "id": "a61889a62bf6d24c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e786e6cd18ab0790",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tutorial/javascript.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8ca93d412e68b4aa",
+    "type": "split",
+    "children": [
+      {
+        "id": "514ffab9753ddb4f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fa0af723d707d3c5",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "01e4e0db42117d34",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "31d4750099446444",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "e3ec26849ffa2b2b",
+    "type": "split",
+    "children": [
+      {
+        "id": "b6be8196e63f1c0b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0a4466cd4e8df892",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "tutorial/javascript.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "14b0c546a05e2a81",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "tutorial/javascript.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "765b3f6146ed0936",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "1552fbb98c441e36",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "tutorial/javascript.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "e786e6cd18ab0790",
+  "lastOpenFiles": [
+    "blog/first-blog.md",
+    "authors/sparrowhawk.md",
+    "authors/default.md"
+  ]
+}
