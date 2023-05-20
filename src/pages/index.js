@@ -1,11 +1,11 @@
-import Link from '@/components/Link';
-import { PageSEO } from '@/components/SEO';
-import Tag from '@/components/Tag';
+import Link from '@/old_components/Link';
+import { PageSEO } from '@/old_components/SEO';
+import Tag from '@/old_components/Tag';
 import siteMetadata from '@/data/siteMetadata';
 import { getAllFilesFrontMatter } from '@/lib/mdx';
 import formatDate from '@/lib/utils/formatDate';
 
-import NewsletterForm from '@/components/NewsletterForm';
+import NewsletterForm from '@/old_components/NewsletterForm';
 
 const MAX_DISPLAY = 5;
 

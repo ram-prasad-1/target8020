@@ -1,8 +1,8 @@
-import SectionContainer from '@/components/SectionContainer';
-import {BlogSEO} from '@/components/SEO';
+import SectionContainer from '@/old_components/SectionContainer';
+import {BlogSEO} from '@/old_components/SEO';
 import siteMetadata from '@/data/siteMetadata';
-import ScrollTopAndComment from '@/components/ScrollTopAndComment';
-import TOCInline from '@/components/TOCInline';
+import ScrollTopAndComment from '@/old_components/ScrollTopAndComment';
+import TOCInline from '@/old_components/TOCInline';
 
 const editUrl = (fileName) =>
   `${siteMetadata.siteRepo}/blob/master/data/blog/${fileName}`;

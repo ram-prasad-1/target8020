@@ -1,11 +1,11 @@
-import Link from '@/components/Link';
-import PageTitle from '@/components/PageTitle';
-import SectionContainer from '@/components/SectionContainer';
-import { BlogSEO } from '@/components/SEO';
+import Link from '@/old_components/Link';
+import PageTitle from '@/old_components/PageTitle';
+import SectionContainer from '@/old_components/SectionContainer';
+import { BlogSEO } from '@/old_components/SEO';
 import siteMetadata from '@/data/siteMetadata';
 import formatDate from '@/lib/utils/formatDate';
-import Comments from '@/components/comments';
-import ScrollTopAndComment from '@/components/ScrollTopAndComment';
+import Comments from '@/old_components/comments';
+import ScrollTopAndComment from '@/old_components/ScrollTopAndComment';
 
 export default function PostLayout({
   frontMatter,

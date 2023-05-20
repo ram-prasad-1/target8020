@@ -1,5 +1,5 @@
-import Link from '@/components/Link';
-import { PageSEO } from '@/components/SEO';
+import Link from '@/old_components/Link';
+import { PageSEO } from '@/old_components/SEO';
 import siteMetadata from '@/data/siteMetadata';
 
 export default function FourZeroFour() {

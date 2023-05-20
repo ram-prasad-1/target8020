@@ -1,12 +1,12 @@
-import Link from '@/components/Link';
-import PageTitle from '@/components/PageTitle';
-import SectionContainer from '@/components/SectionContainer';
-import { BlogSEO } from '@/components/SEO';
-import Image from '@/components/Image';
-import Tag from '@/components/Tag';
+import Link from '@/old_components/Link';
+import PageTitle from '@/old_components/PageTitle';
+import SectionContainer from '@/old_components/SectionContainer';
+import { BlogSEO } from '@/old_components/SEO';
+import Image from '@/old_components/Image';
+import Tag from '@/old_components/Tag';
 import siteMetadata from '@/data/siteMetadata';
-import Comments from '@/components/comments';
-import ScrollTopAndComment from '@/components/ScrollTopAndComment';
+import Comments from '@/old_components/comments';
+import ScrollTopAndComment from '@/old_components/ScrollTopAndComment';
 
 const editUrl = (fileName) =>
   `${siteMetadata.siteRepo}/blob/master/data/blog/${fileName}`;

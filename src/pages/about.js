@@ -1,4 +1,4 @@
-import { MDXLayoutRenderer } from '@/components/MDXComponents';
+import { MDXLayoutRenderer } from '@/old_components/MDXComponents';
 import { getFileBySlug } from '@/lib/mdx';
 
 const DEFAULT_LAYOUT = 'AuthorLayout';

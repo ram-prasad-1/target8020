@@ -1,3 +1,21 @@
+/* common */
+
+.boxCx {
+  display: flex;
+  justify-content: center;
+}
+
+.boxCy {
+  display: flex;
+  align-items: center;
+}
+
+.boxCxy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /* tocTutorial */
 .tocTutorial ul {
   list-style: none;

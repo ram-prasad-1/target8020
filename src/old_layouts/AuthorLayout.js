@@ -1,6 +1,6 @@
-import SocialIcon from '@/components/social-icons';
-import Image from '@/components/Image';
-import { PageSEO } from '@/components/SEO';
+import SocialIcon from '@/old_components/social-icons';
+import Image from '@/old_components/Image';
+import { PageSEO } from '@/old_components/SEO';
 
 export default function AuthorLayout({ children, frontMatter }) {
   const {
