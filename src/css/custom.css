@@ -16,6 +16,12 @@
   align-items: center;
 }
 
+
+/* pdf */
+/* https://github.com/ashok-khanna/pdf */
+.page-break { break-after: page; }
+
+
 /* tocTutorial */
 .tocTutorial ul {
   list-style: none;

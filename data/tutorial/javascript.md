@@ -24,6 +24,8 @@ NOTE: ES2015 is also refered to as ES6, ES2016 as ES7 and so on.
 
 [Also, JavaScript is a completely different programming language than Java.]
 
+<div class="page-break"/>
+
 ## Getting Started
 
 You can use [RunKit](https://runkit.com/) to run the code. RunKit notebooks are
