@@ -21,6 +21,12 @@
 /* https://github.com/ashok-khanna/pdf */
 .page-break { break-after: page; }
 
+@media print {
+  .header, .footer {
+    display: none;
+  }
+}
+
 
 /* tocTutorial */
 .tocTutorial ul {

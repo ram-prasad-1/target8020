@@ -2,7 +2,6 @@
 title: Javascript
 date: '2022-03-08'
 draft: false
-layout: TutorialLayout
 summary: Javascript notes.
 ---
 
@@ -24,7 +23,7 @@ NOTE: ES2015 is also refered to as ES6, ES2016 as ES7 and so on.
 
 [Also, JavaScript is a completely different programming language than Java.]
 
-<div class="page-break"/>
+<div className="page-break"/>
 
 ## Getting Started
 
