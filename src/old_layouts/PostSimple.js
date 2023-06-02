@@ -1,4 +1,4 @@
-import Link from '@/old_components/Link';
+import Link from '@/components/common/Link';
 import PageTitle from '@/old_components/PageTitle';
 import SectionContainer from '@/old_components/SectionContainer';
 import { BlogSEO } from '@/old_components/SEO';
@@ -45,7 +45,7 @@ export default function PostLayout({
             style={{ gridTemplateRows: 'auto 1fr' }}
           >
             <div className="divide-y divide-gray-200 dark:divide-gray-700 xl:col-span-3 xl:row-span-2 xl:pb-0">
-              <div className="prose max-w-none pt-10 pb-8 dark:prose-dark">
+              <div className="prose max-w-none pb-8 pt-10 dark:prose-dark">
                 {children}
               </div>
             </div>

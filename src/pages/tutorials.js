@@ -1,4 +1,4 @@
-import Link from '@/old_components/Link';
+import Link from '@/components/common/Link';
 import { PageSEO } from '@/old_components/SEO';
 import Tag from '@/old_components/Tag';
 import siteMetadata from '@/data/siteMetadata';
@@ -6,7 +6,7 @@ import { getAllFilesFrontMatter } from '@/lib/mdx';
 import formatDate from '@/lib/utils/formatDate';
 
 import NewsletterForm from '@/old_components/NewsletterForm';
-import cx from "clsx";
+import cx from 'clsx';
 
 const MAX_DISPLAY = 5;
 
@@ -24,7 +24,7 @@ export default function Home({ posts }) {
         description={siteMetadata.description}
       />
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
-        <div className="space-y-2 pt-6 pb-8 md:space-y-5">
+        <div className="space-y-2 pb-8 pt-6 md:space-y-5">
           <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
             Tutorials
           </h1>
@@ -47,7 +47,7 @@ export default function Home({ posts }) {
                       </dd>
                     </dl>
                     <div className="space-y-5 xl:col-span-3">
-                      <div className={cx(tags && "space-y-6")}>
+                      <div className={cx(tags && 'space-y-6')}>
                         <div>
                           <h2 className="text-2xl font-bold leading-8 tracking-tight">
                             <Link
