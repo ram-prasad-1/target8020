@@ -9,7 +9,7 @@ import Head from 'next/head';
 
 import siteMetadata from '@/data/siteMetadata';
 import Analytics from '@/old_components/analytics';
-import LayoutWrapper from '@/old_components/LayoutWrapper';
+import LayoutWrapper from '@/components/common/LayoutWrapper';
 import { ClientReload } from '@/old_components/ClientReload';
 
 const isDevelopment = process.env.NODE_ENV === 'development';
